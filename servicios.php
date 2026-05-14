@@ -93,11 +93,11 @@
           <p class="text-on-surface-variant text-sm leading-relaxed mb-6">
             Venta, soporte y mantenimiento preventivo y correctivo de equipos de cómputo e impresión.
           </p>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-2 py-1 bg-surface-variant/40 rounded font-code text-[11px] text-on-surface-variant border border-outline-variant/30">PROVISIÓN DE EQUIPOS</span>
-            <span class="px-2 py-1 bg-surface-variant/40 rounded font-code text-[11px] text-on-surface-variant border border-outline-variant/30">INTEGRACIÓN</span>
-            <span class="px-2 py-1 bg-surface-variant/40 rounded font-code text-[11px] text-on-surface-variant border border-outline-variant/30">SOPORTE Y MANTENIMIENTO</span>
-          </div>
+          <ul class="space-y-2 text-sm text-on-surface">
+            <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span> Provisión de equipos</li>
+            <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span> Integración de infraestructura</li>
+            <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span> Soporte y mantenimiento</li>
+          </ul>
         </div>
       </div>
     </section>
