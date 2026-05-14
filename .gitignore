@@ -1,0 +1,22 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs y temporales
+*.log
+/logs/
+/tmp/
+
+# Configuración local sensible
+.env
+config.local.php
+
+# Claude Code (herramienta de desarrollo)
+.claude/
+i
