@@ -640,3 +640,540 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* ========================================
+   HERO IMPACT
+   ======================================== */
+.hero-impact {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #001f3f 0%, var(--primary-blue) 50%, #005a9e 100%);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 100px 0 60px;
+}
+
+.hero-impact .container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-shapes {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    background: var(--accent-blue);
+    opacity: 0.07;
+}
+
+.shape-1 {
+    width: 550px;
+    height: 550px;
+    top: -160px;
+    right: -120px;
+}
+
+.shape-2 {
+    width: 320px;
+    height: 320px;
+    bottom: -100px;
+    left: -60px;
+}
+
+.shape-3 {
+    width: 180px;
+    height: 180px;
+    top: 45%;
+    right: 32%;
+    opacity: 0.04;
+}
+
+.hero-impact-content {
+    flex: 1;
+    color: white;
+}
+
+.hero-badge {
+    display: inline-block;
+    background: rgba(0, 174, 239, 0.15);
+    border: 1px solid rgba(0, 174, 239, 0.4);
+    color: var(--accent-blue);
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.hero-impact-content h1 {
+    font-size: 52px;
+    line-height: 1.15;
+    margin-bottom: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.hero-impact-content h1 .accent {
+    color: var(--accent-blue);
+}
+
+.hero-impact-content p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 36px;
+    line-height: 1.7;
+}
+
+.btn-outline-white {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    color: white;
+    background: transparent;
+}
+
+.btn-outline-white:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: white;
+    transform: translateY(-2px);
+    color: white;
+}
+
+.btn-lg {
+    padding: 15px 32px;
+    font-size: 16px;
+}
+
+.hero-impact-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-frame {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(0, 174, 239, 0.25);
+}
+
+.image-frame img {
+    width: 100%;
+    display: block;
+}
+
+/* ========================================
+   STATS
+   ======================================== */
+.stats-section {
+    background: var(--white);
+    padding: 10px 0;
+    box-shadow: 0 -4px 30px rgba(0, 0, 0, 0.06);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    border-top: 3px solid var(--accent-blue);
+}
+
+.stat-item {
+    padding: 35px 20px;
+    border-right: 1px solid var(--border-color);
+}
+
+.stat-item:last-child {
+    border-right: none;
+}
+
+.stat-number {
+    font-size: 54px;
+    font-weight: 700;
+    color: var(--primary-blue);
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.stat-plus {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--accent-blue);
+    vertical-align: super;
+    line-height: 1;
+}
+
+.stat-item p {
+    margin-top: 10px;
+    color: var(--text-light);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ========================================
+   SERVICES PREVIEW CARDS
+   ======================================== */
+.section-subtitle {
+    text-align: center;
+    color: var(--text-light);
+    font-size: 17px;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+.services-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.preview-card {
+    background: var(--white);
+    border-radius: 14px;
+    padding: 35px 28px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    border-bottom: 3px solid var(--accent-blue);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.preview-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.13);
+}
+
+.preview-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue));
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.preview-icon i {
+    font-size: 24px;
+    color: white;
+}
+
+.preview-card h3 {
+    font-size: 18px;
+    color: var(--primary-blue);
+    margin-bottom: 12px;
+}
+
+.preview-card p {
+    color: var(--text-light);
+    font-size: 14px;
+    line-height: 1.65;
+    margin-bottom: 22px;
+}
+
+.preview-link {
+    color: var(--accent-blue);
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: gap 0.25s ease;
+}
+
+.preview-link:hover {
+    gap: 12px;
+    color: var(--primary-blue);
+}
+
+/* ========================================
+   WHY US — DARK SECTION
+   ======================================== */
+.bg-dark-gradient {
+    background: linear-gradient(135deg, #001f3f 0%, var(--primary-blue) 100%);
+}
+
+.section-title.light {
+    color: white;
+}
+
+.feature-card.dark {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+}
+
+.feature-card.dark h3 {
+    color: white;
+}
+
+.feature-card.dark p {
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.feature-card.dark i {
+    color: var(--accent-blue);
+}
+
+/* ========================================
+   CLIENTS STRIP
+   ======================================== */
+.clients-strip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 35px 40px;
+    background: var(--light-gray);
+    border-radius: 14px;
+}
+
+.clients-strip img {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.55;
+    transition: all 0.3s ease;
+}
+
+.clients-strip img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* ========================================
+   CTA FINAL SECTION
+   ======================================== */
+.cta-section {
+    background: linear-gradient(135deg, #005a9e, var(--accent-blue));
+    padding: 90px 0;
+}
+
+.cta-content {
+    text-align: center;
+    color: white;
+}
+
+.cta-content h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.cta-content p {
+    font-size: 18px;
+    margin-bottom: 35px;
+    opacity: 0.88;
+}
+
+.btn-cta-white {
+    background: white;
+    color: var(--accent-blue);
+    font-weight: 700;
+}
+
+.btn-cta-white:hover {
+    background: var(--primary-blue);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* ========================================
+   SAAS CARDS — SERVICIOS
+   ======================================== */
+.saas-section-header {
+    margin-bottom: 16px;
+}
+
+.saas-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue));
+    color: white;
+    padding: 10px 24px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.saas-section-desc {
+    color: var(--text-light);
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 720px;
+    margin-bottom: 40px;
+}
+
+.saas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 30px;
+}
+
+.saas-card {
+    background: var(--white);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--border-color);
+}
+
+.saas-card:hover {
+    transform: translateY(-9px);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.16);
+}
+
+.saas-card-header {
+    padding: 38px 38px 28px;
+}
+
+.saas-card.siamot .saas-card-header {
+    background: linear-gradient(135deg, #001f3f 0%, #003366 100%);
+}
+
+.saas-card.meritoia .saas-card-header {
+    background: linear-gradient(135deg, #005a9e 0%, #00AEEF 100%);
+}
+
+.saas-card-logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.saas-card-logo i {
+    font-size: 28px;
+    color: white;
+}
+
+.saas-card-header h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.saas-card-tagline {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.saas-card-body {
+    padding: 30px 38px 38px;
+}
+
+.saas-card-body > p {
+    color: var(--text-light);
+    line-height: 1.72;
+    margin-bottom: 24px;
+    font-size: 15px;
+}
+
+.saas-features {
+    list-style: none;
+    margin-bottom: 28px;
+}
+
+.saas-features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 11px;
+    font-size: 14px;
+    color: var(--text-dark);
+    line-height: 1.5;
+}
+
+.saas-features li i {
+    color: var(--accent-blue);
+    font-size: 15px;
+    margin-top: 1px;
+    flex-shrink: 0;
+}
+
+/* ========================================
+   RESPONSIVE ADDITIONS
+   ======================================== */
+@media (max-width: 900px) {
+    .hero-impact .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-impact-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-impact-content p {
+        font-size: 16px;
+    }
+
+    .hero-impact .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-impact-image {
+        width: 100%;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat-item:nth-child(2) {
+        border-right: none;
+    }
+
+    .saas-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-impact-content h1 {
+        font-size: 28px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .clients-strip {
+        gap: 25px;
+        padding: 25px 20px;
+    }
+
+    .clients-strip img {
+        height: 35px;
+    }
+
+    .cta-content h2 {
+        font-size: 26px;
+    }
+}

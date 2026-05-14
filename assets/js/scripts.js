@@ -45,6 +45,34 @@ document.addEventListener('DOMContentLoaded', function () {
         observer.observe(el);
     });
 
+    // Stats Counter Animation
+    const counters = document.querySelectorAll('.stat-number');
+    if (counters.length > 0) {
+        const statsSection = document.querySelector('.stats-section');
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    counters.forEach(counter => {
+                        const target = parseInt(counter.getAttribute('data-target'));
+                        const duration = 1800;
+                        const step = target / (duration / 16);
+                        let current = 0;
+                        const timer = setInterval(() => {
+                            current += step;
+                            if (current >= target) {
+                                current = target;
+                                clearInterval(timer);
+                            }
+                            counter.textContent = Math.floor(current);
+                        }, 16);
+                    });
+                    counterObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+        if (statsSection) counterObserver.observe(statsSection);
+    }
+
     // Form Validation
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
