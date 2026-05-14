@@ -25,7 +25,7 @@
         <div class="font-label text-[11px] text-primary uppercase tracking-widest">QUIÉNES SOMOS</div>
         <h2 class="font-headline text-3xl font-bold text-on-surface tracking-tight">KernelClic SAS</h2>
         <p class="text-on-surface-variant text-sm leading-relaxed">
-          Somos una empresa líder en el sector tecnológico colombiano, comprometida con el desarrollo y la implementación de soluciones que optimizan los procesos de nuestros clientes. Contamos con un equipo multidisciplinario de expertos apasionados por la tecnología, la innovación y el impacto social.
+          KernelClic SAS es una empresa líder en el sector tecnológico, comprometida con el desarrollo y la implementación de soluciones que optimizan los procesos de nuestros clientes. Contamos con un equipo multidisciplinario de expertos apasionados por la tecnología.
         </p>
         <div class="flex flex-wrap gap-2 pt-2">
           <span class="px-3 py-1 bg-surface-variant/40 rounded font-code text-[11px] text-on-surface-variant border border-outline-variant/30">COLOMBIA</span>
@@ -51,7 +51,7 @@
       <div class="font-label text-[11px] text-primary uppercase tracking-widest">MISIÓN</div>
       <h3 class="font-headline text-2xl font-bold text-on-surface">Nuestra Misión</h3>
       <p class="text-on-surface-variant text-sm leading-relaxed">
-        Proveer soluciones tecnológicas innovadoras y de alta calidad que impulsen el crecimiento y la eficiencia de nuestros clientes, fomentando el desarrollo social y empresarial en Colombia y la región.
+        Proveer soluciones tecnológicas innovadoras y de alta calidad que impulsen el crecimiento y la eficiencia de nuestros clientes, fomentando el desarrollo social y empresarial.
       </p>
     </section>
 
@@ -62,7 +62,7 @@
       <div class="font-label text-[11px] text-secondary uppercase tracking-widest">VISIÓN</div>
       <h3 class="font-headline text-2xl font-bold text-on-surface">Nuestra Visión</h3>
       <p class="text-on-surface-variant text-sm leading-relaxed">
-        Ser reconocidos a nivel nacional como un referente en soluciones tecnológicas integrales, destacándonos por nuestra excelencia, compromiso y capacidad de innovación constante frente a los retos del mundo digital.
+        Ser reconocidos a nivel nacional como un referente en soluciones tecnológicas integrales, destacándonos por nuestra excelencia, compromiso y capacidad de innovación constante.
       </p>
     </section>
   </div>

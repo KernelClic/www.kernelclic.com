@@ -32,20 +32,20 @@
           <div class="h-1 w-16 bg-primary mt-4"></div>
         </div>
         <p class="text-on-surface-variant text-sm leading-relaxed mb-8 max-w-xl">
-          Desarrollo de aplicaciones web, móviles y de escritorio. Arquitectura de sistemas distribuidos, consultoría técnica y documentación especializada.
+          Desarrollo de aplicaciones web, móviles y de escritorio a la medida. Consultoría y documentación.
         </p>
         <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 font-code text-sm">
           <li class="flex items-center gap-3 text-on-surface">
-            <span class="material-symbols-outlined text-primary text-lg" style="font-variation-settings:'FILL' 1;">dataset</span> Desarrollo Web y Móvil
+            <span class="material-symbols-outlined text-primary text-lg" style="font-variation-settings:'FILL' 1;">dataset</span> Desarrollo Web/Móvil
           </li>
           <li class="flex items-center gap-3 text-on-surface">
-            <span class="material-symbols-outlined text-primary text-lg" style="font-variation-settings:'FILL' 1;">memory</span> Microservicios y APIs
+            <span class="material-symbols-outlined text-primary text-lg" style="font-variation-settings:'FILL' 1;">memory</span> Consultoría
           </li>
           <li class="flex items-center gap-3 text-on-surface">
-            <span class="material-symbols-outlined text-primary text-lg" style="font-variation-settings:'FILL' 1;">lan</span> Software Libre y Open Source
+            <span class="material-symbols-outlined text-primary text-lg" style="font-variation-settings:'FILL' 1;">lan</span> Software Libre
           </li>
           <li class="flex items-center gap-3 text-on-surface">
-            <span class="material-symbols-outlined text-primary text-lg" style="font-variation-settings:'FILL' 1;">hub</span> Servicios en la Nube
+            <span class="material-symbols-outlined text-primary text-lg" style="font-variation-settings:'FILL' 1;">hub</span> Servicios en la nube
           </li>
         </ul>
       </div>
@@ -57,7 +57,7 @@
         <div class="font-label text-[11px] text-secondary uppercase tracking-widest mb-2">MÓDULO 02</div>
         <h2 class="font-headline text-2xl font-bold text-on-surface">Redes y Cableado</h2>
         <p class="text-on-surface-variant text-sm mt-4 leading-relaxed">
-          Diseño e implementación de redes de voz y datos, cableado estructurado, CCTV y sistemas de control de acceso.
+          Diseño e implementación de redes de voz y datos, cableado estructurado, CCTV y control de acceso.
         </p>
       </div>
       <div class="mt-8 space-y-3">
@@ -73,7 +73,8 @@
           <span class="material-symbols-outlined text-sm">check_circle</span> CERTIFICACIÓN CAT 6A
         </div>
         <ul class="space-y-2 pt-2">
-          <li class="flex items-center gap-2 text-on-surface-variant text-sm"><span class="material-symbols-outlined text-secondary text-base">wifi</span> Redes de voz y datos</li>
+          <li class="flex items-center gap-2 text-on-surface-variant text-sm"><span class="material-symbols-outlined text-secondary text-base">wifi</span> Asesoría en cableado</li>
+          <li class="flex items-center gap-2 text-on-surface-variant text-sm"><span class="material-symbols-outlined text-secondary text-base">lan</span> Redes de voz y datos</li>
           <li class="flex items-center gap-2 text-on-surface-variant text-sm"><span class="material-symbols-outlined text-secondary text-base">videocam</span> CCTV</li>
           <li class="flex items-center gap-2 text-on-surface-variant text-sm"><span class="material-symbols-outlined text-secondary text-base">lock</span> Control de acceso</li>
         </ul>
@@ -90,12 +91,12 @@
           <div class="font-label text-[11px] text-primary uppercase tracking-widest mb-2">MÓDULO 03</div>
           <h2 class="font-headline text-2xl font-bold text-on-surface mb-4">Hardware e Infraestructura</h2>
           <p class="text-on-surface-variant text-sm leading-relaxed mb-6">
-            Venta, soporte y mantenimiento preventivo y correctivo de equipos de cómputo e impresión. Integración de infraestructura para empresas.
+            Venta, soporte y mantenimiento preventivo y correctivo de equipos de cómputo e impresión.
           </p>
           <div class="flex flex-wrap gap-2">
-            <span class="px-2 py-1 bg-surface-variant/40 rounded font-code text-[11px] text-on-surface-variant border border-outline-variant/30">PREVENTIVO</span>
-            <span class="px-2 py-1 bg-surface-variant/40 rounded font-code text-[11px] text-on-surface-variant border border-outline-variant/30">CORRECTIVO</span>
-            <span class="px-2 py-1 bg-surface-variant/40 rounded font-code text-[11px] text-on-surface-variant border border-outline-variant/30">PROVISIÓN</span>
+            <span class="px-2 py-1 bg-surface-variant/40 rounded font-code text-[11px] text-on-surface-variant border border-outline-variant/30">PROVISIÓN DE EQUIPOS</span>
+            <span class="px-2 py-1 bg-surface-variant/40 rounded font-code text-[11px] text-on-surface-variant border border-outline-variant/30">INTEGRACIÓN</span>
+            <span class="px-2 py-1 bg-surface-variant/40 rounded font-code text-[11px] text-on-surface-variant border border-outline-variant/30">SOPORTE Y MANTENIMIENTO</span>
           </div>
         </div>
       </div>
@@ -208,7 +209,7 @@
       <div class="grid md:grid-cols-2 gap-12">
         <div>
           <h2 class="font-headline text-2xl font-bold text-on-surface mb-4">¿Necesitas una solución personalizada?</h2>
-          <p class="text-on-surface-variant text-sm leading-relaxed mb-8">Nuestro equipo de ingenieros analizará tus requerimientos y propondrá la arquitectura ideal para tu empresa.</p>
+          <p class="text-on-surface-variant text-sm leading-relaxed mb-8">Contáctanos y nuestro equipo de expertos analizará tus requerimientos.</p>
           <div class="space-y-4">
             <div class="flex items-center gap-4">
               <span class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center border border-outline-variant/30">

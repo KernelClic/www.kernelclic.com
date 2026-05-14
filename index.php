@@ -14,11 +14,11 @@
     </div>
 
     <h1 class="font-headline text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] text-on-surface">
-      Soluciones que potencian tu <span class="text-primary-container">crecimiento</span>
+      Soluciones tecnológicas que impulsan tu <span class="text-primary-container">crecimiento</span>
     </h1>
 
     <p class="text-on-surface-variant text-lg md:text-xl max-w-2xl leading-relaxed">
-      En KernelClic transformamos tus ideas en soluciones digitales robustas y escalables. Desde software a medida hasta infraestructura de redes y plataformas SaaS con IA.
+      En KernelClic transformamos tus ideas en soluciones digitales robustas y escalables.
     </p>
 
     <div class="flex flex-wrap gap-4 pt-2">
@@ -31,6 +31,16 @@
         Hablar con un Experto
       </a>
     </div>
+  </div>
+</section>
+
+<!-- ── BIENVENIDA ── -->
+<section class="border-b border-outline-variant/20 bg-surface-container-lowest">
+  <div class="max-w-[1280px] mx-auto px-6 md:px-12 py-12 fade-up">
+    <h2 class="font-headline text-2xl font-bold text-on-surface mb-3">Bienvenido a KernelClic</h2>
+    <p class="text-on-surface-variant text-sm leading-relaxed max-w-3xl">
+      Somos una empresa dedicada a ofrecer soluciones integrales en tecnología, desde desarrollo de software a medida hasta infraestructura de redes y seguridad. Nuestro compromiso es brindar calidad e innovación en cada proyecto.
+    </p>
   </div>
 </section>
 
@@ -178,17 +188,17 @@
     <div class="glass-panel rounded-xl p-8 text-center space-y-4 hover:border-primary/30 transition-all fade-up">
       <span class="material-symbols-outlined text-primary text-5xl">lightbulb</span>
       <h3 class="font-headline text-xl font-bold text-on-surface">Innovación</h3>
-      <p class="text-on-surface-variant text-sm leading-relaxed">Utilizamos las últimas tecnologías para mantenerte a la vanguardia del mercado.</p>
+      <p class="text-on-surface-variant text-sm leading-relaxed">Utilizamos las últimas tecnologías para mantenerte a la vanguardia.</p>
     </div>
     <div class="glass-panel rounded-xl p-8 text-center space-y-4 hover:border-primary/30 transition-all fade-up">
       <span class="material-symbols-outlined text-primary text-5xl">security</span>
       <h3 class="font-headline text-xl font-bold text-on-surface">Seguridad</h3>
-      <p class="text-on-surface-variant text-sm leading-relaxed">Protegemos tu información con los más altos estándares internacionales de seguridad.</p>
+      <p class="text-on-surface-variant text-sm leading-relaxed">Protegemos tu información con los más altos estándares.</p>
     </div>
     <div class="glass-panel rounded-xl p-8 text-center space-y-4 hover:border-primary/30 transition-all fade-up">
       <span class="material-symbols-outlined text-primary text-5xl">support_agent</span>
       <h3 class="font-headline text-xl font-bold text-on-surface">Soporte</h3>
-      <p class="text-on-surface-variant text-sm leading-relaxed">Acompañamiento continuo para garantizar el éxito de cada proyecto que emprendemos.</p>
+      <p class="text-on-surface-variant text-sm leading-relaxed">Acompañamiento continuo para garantizar el éxito de tu proyecto.</p>
     </div>
   </div>
 </section>
